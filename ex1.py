@@ -14,7 +14,7 @@ that we got from the interent and from the sources below ...
 img1 = cv2.imread("image1.jpg")
 img2 = cv2.imread("image2.jpg")
 
-# Convert images to grayscale
+# Convert images to gray
 gray1 = cv2.cvtColor(img1, cv2.COLOR_BGR2GRAY)
 gray2 = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
 
