@@ -9,10 +9,10 @@ part2:
 5.Save the coordinates (x,y,r,b) of each star into a file.
 """
 # Load the image
-img = cv2.imread("stars.jpg")
+image = cv2.imread("stars.jpg")
 
 # Convert image to grayscale
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 # Detect the stars in the image using the Hough transform
 circles = cv2.HoughCircles(gray, cv2.HOUGH_GRADIENT, dp=1, minDist=50, param1=50, param2=30, minRadius=0, maxRadius=0)
