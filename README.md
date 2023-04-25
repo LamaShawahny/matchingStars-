@@ -1,8 +1,12 @@
 # matchingStars-
 
+# RANSAC
+- Random sample consensus (RANSAC) is an iterative method to estimate parameters of a mathematical model from a set of observed data that contains outliers,
+- when outliers are to be accorded no influence on the values of the estimates.
+- RANSAC uses repeated random sub-sampling. A basic assumption is that the data consists of "inliers", i.e., 
+- data whose distribution can be explained by some set of model parameters, though may be subject to noise, and "outliers" which are data that do not fit the model
 
-
-# Hough transform :
+# Hough transform 
 - The Hough transform is a feature extraction technique used in image analysis, computer vision, and digital image processing.
 - The purpose of the technique is to find imperfect instances of objects within a certain class of shapes by a voting procedure. 
 - read more here:https://en.wikipedia.org/wiki/Hough_transform
