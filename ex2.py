@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 """
+part2:
 1.	Read in the image of stars and convert it into grayscale.
 2.	Detect the stars in the image using a star detection algorithm such as the Hough transform or a blob detector.
 3.	For each star detected, extract its centroid coordinates (x,y) and radius (r) using a shape detection algorithm such as the circular Hough transform or contour detection.
