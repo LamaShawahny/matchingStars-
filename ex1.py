@@ -1,6 +1,7 @@
 import cv2
 import numpy as np
 """
+Part1:
 -Detect the stars in both images using a star detection algorithm such as the Hough transform .
 -Extract the feature descriptors of each star detected in both images using a feature descriptor algorithm such as SIFT.
 -Match the feature descriptors of the stars in both images using a matching algorithm such as FLANN.
