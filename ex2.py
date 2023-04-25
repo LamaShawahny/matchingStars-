@@ -2,11 +2,11 @@ import cv2
 import numpy as np
 """
 part2:
-1.	Read in the image of stars and convert it into grayscale.
-2.	Detect the stars in the image using a star detection algorithm such as the Hough transform or a blob detector.
-3.	For each star detected, extract its centroid coordinates (x,y) and radius (r) using a shape detection algorithm such as the circular Hough transform or contour detection.
-4.	Compute the brightness (b) of each star by averaging the pixel values within its radius.
-5.	Save the coordinates (x,y,r,b) of each star into a file.
+1.Read in the image of stars and convert it into grayscale.
+2.Detect the stars in the image using a star detection algorithm such as the Hough transform or a blob detector.
+3.For each star detected, extract its centroid coordinates (x,y) and radius (r) using a shape detection algorithm such as the circular Hough transform or contour detection.
+4.Compute the brightness (b) of each star by averaging the pixel values within its radius.
+5.Save the coordinates (x,y,r,b) of each star into a file.
 """
 # Load the image
 img = cv2.imread("stars.jpg")
